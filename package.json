@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://mprimavera.github.io",
+  "homepage": "https://mprimavera.github.io/portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/mprimavera/mprimavera.github.io.git"
+    "deploy": "gh-pages -d dist -b gh-pages -r https://github.com/mprimavera/portfolio.git"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
