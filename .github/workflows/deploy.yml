@@ -32,7 +32,7 @@ jobs:
         with:
           personal_token: ${{ secrets.PORTFOLIO_DEPLOYMENT }}
           publish_dir: ./dist
-          external_repository: https://github.com/mprimavera/mprimavera.github.io.git
+          external_repository: mprimavera/mprimavera.github.io
           publish_branch: main
         
 
