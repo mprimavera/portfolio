@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/mprimavera/mprimavera.github.io.git"
+    "deploy": "gh-pages -d dist -r https://github.com/mprimavera/mprimavera.github.io.git"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
