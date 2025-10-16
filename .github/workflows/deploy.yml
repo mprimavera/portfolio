@@ -16,7 +16,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
-          path: .
+          path: './'
 
 
       - name: Set up Node.js
@@ -29,9 +29,9 @@ jobs:
 
       - name: Build project
         run: npm run build
-        working-directory: ./
 
-
+      - name: Check dist folder
+        run: ls -R
 
       - name: Deploy to mprimavera.github.io
         
