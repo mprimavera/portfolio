@@ -25,10 +25,11 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build project
         run: npm run build
+        working-directory: ./
 
       - name: Check dist folder
         run: ls -R
