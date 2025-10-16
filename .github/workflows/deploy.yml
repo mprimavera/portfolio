@@ -16,8 +16,7 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
-        with:
-          path: './dist'
+
 
 
       - name: Set up Node.js
