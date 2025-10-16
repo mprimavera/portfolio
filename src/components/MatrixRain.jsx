@@ -26,7 +26,7 @@ export const MatrixRain = () => {
       ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      ctx.fillStyle = "rgba(0, 255, 76, 0.22)";
+      ctx.fillStyle = "rgba(0, 255, 0, 0.22)";
       ctx.font = fontSize + "px monospace";
 
       for (let i = 0; i < drops.length; i++) {
@@ -40,7 +40,7 @@ export const MatrixRain = () => {
       }
     };
 
-    const interval = setInterval(draw, 35);
+    const interval = setInterval(draw, 33);
 
     const handleResize = () => {
       init(); // recalc columns & drops
