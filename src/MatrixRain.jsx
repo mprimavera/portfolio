@@ -22,7 +22,7 @@ export const MatrixRain = () => {
       ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      ctx.fillStyle = "rgba(0, 102, 255, 0.22)"; // green
+      ctx.fillStyle = "rgba(0, 255, 60, 0.22)"; // green
       ctx.font = fontSize + "px monospace";
 
       for (let i = 0; i < drops.length; i++) {
