@@ -40,7 +40,7 @@ function App() {
                 href="https://www.youtube.com/watch?v=EnIhbuE6zA0&list=PL1Ee_XSiTSM2jPBlFlSY1ZYh4nsHU77T-&index=1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-800 hover:bg-green-400 text-black font-bold py-4 px-8 rounded-lg text-3xl"
+                className="bg-green-700 hover:bg-green-400 text-black font-bold py-4 px-8 rounded-lg text-3xl"
               >
                 My Projects
               </a>
