@@ -35,12 +35,17 @@ function App() {
             </div>
 
             {/* Main content */}
-            <div className="flex-grow flex items-center justify-center">
+            <div className="flex-grow flex flex-col items-center justify-center text-center space-y-8">
+              <p className="text-blue-200 text-2xl font-semibold max-w-2xl">
+                Hello, I'm Michael, a robotics engineer with a focus on developing agentic electro-mechanical
+                systems.
+              </p>
+
               <a
                 href="https://www.youtube.com/watch?v=EnIhbuE6zA0&list=PL1Ee_XSiTSM2jPBlFlSY1ZYh4nsHU77T-&index=1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-600 hover:bg-green-400 text-black font-bold py-4 px-8 rounded-lg text-3xl"
+                className="bg-green-600 hover:bg-green-400 text-black font-bold py-4 px-8 rounded-lg text-2xl transition-colors"
               >
                 My Projects
               </a>
