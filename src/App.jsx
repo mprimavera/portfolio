@@ -21,8 +21,8 @@ function App() {
             {/* Development notification banner */}
             <div
               style={{
-                backgroundColor: '#73de4f9d',
-                color: '#000',
+                backgroundColor: 'rgba(0, 166, 62, 0.15)',
+                color: 'rgba(202, 213, 226, .9)',
                 padding: '10px',
                 textAlign: 'center',
                 fontWeight: 'bold',
@@ -36,7 +36,7 @@ function App() {
 
             {/* Main content */}
             <div className="flex-grow flex flex-col items-center justify-center text-center space-y-8">
-              <p className="text-blue-200 text-2xl font-semibold max-w-2xl">
+              <p className="text-slate-300/90 text-2xl font-semibold max-w-2xl">
                 Hello, I'm Michael, a robotics engineer with a focus on developing agentic electro-mechanical
                 systems.
               </p>
@@ -45,14 +45,13 @@ function App() {
                 href="https://www.youtube.com/watch?v=EnIhbuE6zA0&list=PL1Ee_XSiTSM2jPBlFlSY1ZYh4nsHU77T-&index=1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-600 hover:bg-green-400 text-black font-bold py-4 px-8 rounded-lg text-2xl transition-colors"
+                className="bg-green-600 hover:bg-green-500 text-black font-bold py-4 px-8 rounded-lg text-2xl transition-colors"
               >
                 My Projects
               </a>
             </div>
-
             {/* Footer at bottom */}
-            <footer className="bg-gray-800 text-white text-center py-4">
+            <footer className="text-slate-300/90 text-center py-4 bg-green-600/15">
               <p>&copy; 2025 Michael Primavera. All rights reserved.</p>
             </footer>
           </div>
